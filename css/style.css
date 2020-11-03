@@ -1,0 +1,66 @@
+body{
+    background: url("../images/fondoPa5.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.logoCato{
+    background: darkslategrey;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.logoCato img{
+    height: 100px;
+
+
+}
+
+.seccionPrincipal{
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: gray;
+    opacity: .89;
+    padding: 0;
+    box-shadow: 0px 0px 2px #848484;
+}
+
+.form-group input{
+    margin-top: 25px;
+    margin-right: 20px;
+    height: 42px;
+    width: 400px;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+.form-group#usuario::before{
+    content: "\f007";
+}
+.form-group#contrasena::before{
+    content: "\f023";
+}
+#botonIngresar{
+    width: 150px;
+}
+.olvidar{
+    padding: 5px 0;
+}
+
+.olvidar a{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#textoPrincipal a{
+
+    color: white;
+
+}
